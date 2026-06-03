@@ -1,0 +1,13 @@
+User-agent: *
+
+# Block all Webflow pagination parameters
+Disallow: /*_page=
+Disallow: /*?*page=
+Disallow: /*?*comment_page=
+Disallow: /*?replytocom=
+
+# Allow everything else
+Allow: /
+
+
+Sitemap: https://www.vestrics.co/sitemap.xml
